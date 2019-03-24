@@ -1,13 +1,20 @@
 {
+  "author": "Romén Reyes-Peschl <holler@romen-reyes-peschl.com>",
+  "description": "",
   "name": "angularRiffs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeduardo/angularRiffs.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.2",
