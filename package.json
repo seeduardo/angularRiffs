@@ -17,10 +17,10 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
-    "copy-webpack-plugin": "^5.0.2",
+    "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.0",
     "typescript": "^3.3.4000",
-    "webpack": "^4.29.6"
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "ejs": "^2.6.1",
